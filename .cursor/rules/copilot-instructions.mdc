@@ -216,7 +216,7 @@ All variables adjust automatically in dark mode:
   - Used for: All clickable navigation links, social links, main content links
   - Hover state: `#1565C0` (darker blue)
   - Active/current page: Black (#000) with bold font-weight
-  
+
 **Navigation & Footer:**
 - **Header Navigation**: Blue links, bold black for active page
 - **Footer Social Links**: Blue with hover state

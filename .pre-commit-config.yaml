@@ -1,0 +1,29 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '^(images/|fonts/|feed/)'
+      - id: end-of-file-fixer
+        exclude: '^(images/|fonts/|feed/)'
+      - id: mixed-line-ending
+        args: ["--fix=lf"]
+        exclude: '^(images/|fonts/|feed/)'
+      - id: check-added-large-files
+        args: ["--maxkb=10240"]
+      - id: check-merge-conflict
+      - id: check-json
+      - id: check-yaml
+      - id: check-xml
+
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.16.0
+    hooks:
+      - id: markdownlint-cli2
+        args: ["--fix"]
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v4.0.0-alpha.8
+    hooks:
+      - id: prettier
+        types_or: [html, css, javascript, json, yaml, markdown]

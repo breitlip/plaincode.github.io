@@ -1,155 +1,290 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more.">
-    <link rel="canonical" href="https://www.plaincode.com/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more."
+    />
+    <link rel="canonical" href="https://www.plaincode.com/" />
     <!-- Open Graph / Social Preview -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="plaincode">
-    <meta property="og:title" content="plaincode - app development + tech blog">
-    <meta property="og:description" content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more.">
-    <meta property="og:url" content="https://www.plaincode.com/">
-    <meta property="og:image" content="https://www.plaincode.com/images/icons/plaincode_logo.jpg">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="plaincode - app development + tech blog">
-    <meta name="twitter:description" content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more.">
-    <meta name="twitter:image" content="https://www.plaincode.com/images/icons/plaincode_logo.jpg">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
-    <link rel="preload" href="/fonts/gothic.woff" as="font" type="font/woff" crossorigin>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="alternate" type="application/rss+xml" title="plaincode - app development + tech blog" href="/feed/">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="plaincode" />
+    <meta
+      property="og:title"
+      content="plaincode - app development + tech blog"
+    />
+    <meta
+      property="og:description"
+      content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more."
+    />
+    <meta property="og:url" content="https://www.plaincode.com/" />
+    <meta
+      property="og:image"
+      content="https://www.plaincode.com/images/icons/plaincode_logo.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="plaincode - app development + tech blog"
+    />
+    <meta
+      name="twitter:description"
+      content="plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.plaincode.com/images/icons/plaincode_logo.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/icons/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="preload"
+      href="/fonts/gothic.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="plaincode - app development + tech blog"
+      href="/feed/"
+    />
     <script src="/js/script.js" defer></script>
     <title>plaincode - app development + tech blog</title>
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "plaincode",
-      "url": "https://www.plaincode.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.plaincode.com/images/icons/plaincode_logo.jpg"
-      },
-      "description": "plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more.",
-      "foundingDate": "2008",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "support@plaincode.com",
-        "contactType": "customer support"
-      },
-      "sameAs": [
-        "https://www.facebook.com/plaincode",
-        "https://www.twitter.com/plaincode",
-        "https://www.linkedin.com/plaincode",
-        "https://github.com/plaincode"
-      ]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "plaincode",
+        "url": "https://www.plaincode.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.plaincode.com/images/icons/plaincode_logo.jpg"
+        },
+        "description": "plaincode - app development and tech blog. We create mobile apps for iOS and Android including Clinometer, MagnetMeter, AccelMeter, and more.",
+        "foundingDate": "2008",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "support@plaincode.com",
+          "contactType": "customer support"
+        },
+        "sameAs": [
+          "https://www.facebook.com/plaincode",
+          "https://www.twitter.com/plaincode",
+          "https://www.linkedin.com/plaincode",
+          "https://github.com/plaincode"
+        ]
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="site-header">
-        <div class="container">
-            <div class="header-content">
-                <h1 class="site-logo">
-                    <a href="/">
-                        <picture>
-                            <source media="(max-width: 370px)" srcset="/images/icons/plaincode_logo_text_narrow.svg">
-                            <img src="/images/icons/plaincode_logo_text.svg" alt="plaincode" width="347" height="74" fetchpriority="high">
-                        </picture>
-                    </a>
-                </h1>
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="/" class="active">HOME</a></li>
-                        <li><a href="/products/">APPS</a></li>
-                    </ul>
-                </nav>
-            </div>
+      <div class="container">
+        <div class="header-content">
+          <h1 class="site-logo">
+            <a href="/">
+              <picture>
+                <source
+                  media="(max-width: 370px)"
+                  srcset="/images/icons/plaincode_logo_text_narrow.svg"
+                />
+                <img
+                  src="/images/icons/plaincode_logo_text.svg"
+                  alt="plaincode"
+                  width="347"
+                  height="74"
+                  fetchpriority="high"
+                />
+              </picture>
+            </a>
+          </h1>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="/" class="active">HOME</a></li>
+              <li><a href="/products/">APPS</a></li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main class="main-content">
-        <section class="hero">
-            <div class="container">
-                <h2 class="tagline">app development + tech blog</h2>
-            </div>
-        </section>
-
-        <div class="blog-posts">
-            <div class="container">
-                <article class="post">
-                    <h3>Website Relaunch: New Modern Design & Enhanced Performance</h3>
-                    <p class="post-meta">February 21, 2026</p>
-                    <p>We're excited to announce the complete relaunch of our website with a stunning new design! The site now features a modern glassmorphism aesthetic with our Bavaria Blue theme, delivering a fresh, professional look that's fast and responsive across all devices.</p>
-                    <p><strong>What's New:</strong></p>
-                    <ul>
-                        <li><strong>Modern Glassmorphism Design:</strong> Beautiful frosted glass effects inspired by iOS design language</li>
-                        <li><strong>Lightning-Fast Performance:</strong> Migrated from WordPress to a static site with optimized Core Web Vitals</li>
-                        <li><strong>Enhanced Mobile Experience:</strong> Fully responsive design with dual breakpoints for perfect viewing on any device</li>
-                    </ul>
-                    <p>Explore our <a href="/products/">apps</a> and enjoy the improved experience!</p>
-                </article>
-
-                <article class="post">
-                    <h3>The One That Got Away: 3DTouch Scale</h3>
-                    <p class="post-meta">January 1, 2026</p>
-                    <p>Happy New Year! For our first post of 2026, we're sharing a fun piece of plaincode history. Back in the iPhone 6s era, we developed an innovative app called <a href="/products/scale/">3DTouch Scale</a> that turned your iPhone into a digital weight scale using the pressure-sensitive 3D Touch sensors.</p>
-                    <p>The concept was brilliant (if we say so ourselves): measure fruits directly on the screen, or use a clever finger-balancing technique for non-capacitive objects. We even made a demo video! But alas, Apple had concerns about potential hardware damage from users placing heavy objects on their screens. The app never made it past review. 📱⚖️ 🚫</p>
-                    <p>You can still <a href="/products/scale/">check out what could have been</a>—it's preserved here as a testament to creative (if slightly risky) hardware experimentation. Sometimes the best ideas are the ones that make reviewers nervous! 😄</p>
-                </article>
-
-                <article class="post">
-                    <h3>Clinometer App Releases Version 3.0 for Android: Enhanced Compatibility and Stability</h3>
-                    <p class="post-meta">October 28, 2024</p>
-                    <p>We are excited to announce the release of <a href="/products/clinometer/">Clinometer</a> App Version 3.0 for Android devices. This major update brings full compatibility with the latest Android operating systems and introduces crucial stability fixes to enhance user experience.</p>
-                    <p>Clinometer has long been a trusted tool for professionals and hobbyists alike, providing precise angle and slope measurements typically within ±0.1 degrees.</p>
-                </article>
-
-                <div class="news-footer">
-                    <a href="/news/">View all news →</a>
-                </div>
-            </div>
+      <section class="hero">
+        <div class="container">
+          <h2 class="tagline">app development + tech blog</h2>
         </div>
+      </section>
+
+      <div class="blog-posts">
+        <div class="container">
+          <article class="post">
+            <h3>Website Relaunch: New Modern Design & Enhanced Performance</h3>
+            <p class="post-meta">February 21, 2026</p>
+            <p>
+              We're excited to announce the complete relaunch of our website
+              with a stunning new design! The site now features a modern
+              glassmorphism aesthetic with our Bavaria Blue theme, delivering a
+              fresh, professional look that's fast and responsive across all
+              devices.
+            </p>
+            <p><strong>What's New:</strong></p>
+            <ul>
+              <li>
+                <strong>Modern Glassmorphism Design:</strong> Beautiful frosted
+                glass effects inspired by iOS design language
+              </li>
+              <li>
+                <strong>Lightning-Fast Performance:</strong> Migrated from
+                WordPress to a static site with optimized Core Web Vitals
+              </li>
+              <li>
+                <strong>Enhanced Mobile Experience:</strong> Fully responsive
+                design with dual breakpoints for perfect viewing on any device
+              </li>
+            </ul>
+            <p>
+              Explore our <a href="/products/">apps</a> and enjoy the improved
+              experience!
+            </p>
+          </article>
+
+          <article class="post">
+            <h3>The One That Got Away: 3DTouch Scale</h3>
+            <p class="post-meta">January 1, 2026</p>
+            <p>
+              Happy New Year! For our first post of 2026, we're sharing a fun
+              piece of plaincode history. Back in the iPhone 6s era, we
+              developed an innovative app called
+              <a href="/products/scale/">3DTouch Scale</a> that turned your
+              iPhone into a digital weight scale using the pressure-sensitive 3D
+              Touch sensors.
+            </p>
+            <p>
+              The concept was brilliant (if we say so ourselves): measure fruits
+              directly on the screen, or use a clever finger-balancing technique
+              for non-capacitive objects. We even made a demo video! But alas,
+              Apple had concerns about potential hardware damage from users
+              placing heavy objects on their screens. The app never made it past
+              review. 📱⚖️ 🚫
+            </p>
+            <p>
+              You can still
+              <a href="/products/scale/">check out what could have been</a>—it's
+              preserved here as a testament to creative (if slightly risky)
+              hardware experimentation. Sometimes the best ideas are the ones
+              that make reviewers nervous! 😄
+            </p>
+          </article>
+
+          <article class="post">
+            <h3>
+              Clinometer App Releases Version 3.0 for Android: Enhanced
+              Compatibility and Stability
+            </h3>
+            <p class="post-meta">October 28, 2024</p>
+            <p>
+              We are excited to announce the release of
+              <a href="/products/clinometer/">Clinometer</a> App Version 3.0 for
+              Android devices. This major update brings full compatibility with
+              the latest Android operating systems and introduces crucial
+              stability fixes to enhance user experience.
+            </p>
+            <p>
+              Clinometer has long been a trusted tool for professionals and
+              hobbyists alike, providing precise angle and slope measurements
+              typically within ±0.1 degrees.
+            </p>
+          </article>
+
+          <div class="news-footer">
+            <a href="/news/">View all news →</a>
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <p class="copyright">© 2008 - 2026 plaincode</p>
-                    <a href="https://validator.w3.org/check?uri=referer" class="w3c-validator">W3C ✓</a>
-                    <button class="theme-toggle" aria-label="Toggle dark mode">
-                        <span class="theme-icon theme-icon-light">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="12" r="5"></circle>
-                                <line x1="12" y1="1" x2="12" y2="3"></line>
-                                <line x1="12" y1="21" x2="12" y2="23"></line>
-                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                                <line x1="1" y1="12" x2="3" y2="12"></line>
-                                <line x1="21" y1="12" x2="23" y2="12"></line>
-                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                            </svg>
-                        </span>
-                        <span class="theme-icon theme-icon-dark">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                            </svg>
-                        </span>
-                    </button>
-                </div>
-                <div class="social-links">
-                    <a href="/legal/"><span class="link-text-full">Legal Notice</span><span class="link-text-short">Legal</span></a>
-                    <a href="/privacy/"><span class="link-text-full">Privacy Statement</span><span class="link-text-short">Privacy</span></a>
-                    <a href="/contact/"><span class="link-text-full">Contact</span><span class="link-text-short">Contact</span></a>
-                    <a href="/social/"><span class="link-text-full">Social Media</span><span class="link-text-short">Social</span></a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-left">
+            <p class="copyright">© 2008 - 2026 plaincode</p>
+            <a
+              href="https://validator.w3.org/check?uri=referer"
+              class="w3c-validator"
+              >W3C ✓</a
+            >
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+              <span class="theme-icon theme-icon-light">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+              </span>
+              <span class="theme-icon theme-icon-dark">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                  ></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div class="social-links">
+            <a href="/legal/"
+              ><span class="link-text-full">Legal Notice</span
+              ><span class="link-text-short">Legal</span></a
+            >
+            <a href="/privacy/"
+              ><span class="link-text-full">Privacy Statement</span
+              ><span class="link-text-short">Privacy</span></a
+            >
+            <a href="/contact/"
+              ><span class="link-text-full">Contact</span
+              ><span class="link-text-short">Contact</span></a
+            >
+            <a href="/social/"
+              ><span class="link-text-full">Social Media</span
+              ><span class="link-text-short">Social</span></a
+            >
+          </div>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
