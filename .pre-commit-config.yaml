@@ -3,12 +3,12 @@ repos:
     rev: v6.0.0
     hooks:
       - id: trailing-whitespace
-        exclude: '^(images/|fonts/|feed/)'
+        exclude: "^(images/|fonts/|feed/)"
       - id: end-of-file-fixer
-        exclude: '^(images/|fonts/|feed/)'
+        exclude: "^(images/|fonts/|feed/)"
       - id: mixed-line-ending
         args: ["--fix=lf"]
-        exclude: '^(images/|fonts/|feed/)'
+        exclude: "^(images/|fonts/|feed/)"
       - id: check-added-large-files
         args: ["--maxkb=10240"]
       - id: check-merge-conflict
